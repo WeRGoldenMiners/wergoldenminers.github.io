@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>txaber.io</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#about"><span>0.1</span>-About Me</a>
+        <a href="#experience"><span>0.2</span>-Experience</a>
+        <a href="#projects"><span>0.3</span>-Projects</a>
+        <a href="#"><span>Resume</span></a>
+    </header>
+    <div class="sidenav">
+        <a href="https://www.instagram.com/txaber.tvno/" target="_blank"><i class="social fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/WeRGoldenMiners" target="_blank"><i class="social fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="social fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="heading">txaber.io</div>
+    <div class="container">
+        <div class="quote"></div>
+        <p class="text-head">I'm a 15 years old boy who loves cibersecurity and web development.I've been learning programming since 2019 but its in 2020 when I started to focus on web development.</p>
+    </div>
+    <a href="#about" class="btn-green">Learn more</a>
+    <main>
+        <section class="aboutme" id="about">
+            <div class="text-about">
+                <div class="microhead"><span>0.1</span>-About Me</div>
+                <p>I've been learning programming since I was 11. I started learning python and pentesting and ended doing web pages & designs. Nowadays I'm a freelancer who learns about machine learning and web development. Hope you enjoy your beatiful day!</p>
+            </div>
+            <div class="image-about"><div class="overlay"></div></div>
+        </section>
+        <section class="experience" id="experience">
+            <div class="microhead"><span>0.2</span>-Experience</div>
+            <ul>
+                <div class="experience-text"><i class="green fa-solid fa-arrow-right"></i>Certified Web Developer</div>
+                <div class="experience-text"><i class="green fa-solid fa-arrow-right"></i>Fiverr Freelancing</div>
+            </ul>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="heading-projects"><span>0.3</span>-Projects</h2>
+            <div id="carousel-wrapper">
+                <div id="menu">
+                    <div id="current-option">
+                      <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                      <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                    </div>
+                    <button id="previous-option"></button>
+                    <button id="next-option"></button>
+                  
+                </div>
+                <div id="image"></div>
+              </div>
+        </section>
+    </main>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form class="form">
+            <fieldset>
+                <legend>Please fill all the gaps</legend>
+                <div class="input min">
+                    <label for="name">Name:</label>
+                    <input class="input-field" type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="input min">
+                    <label for="phone">Phone:</label>
+                    <input class="input-field" type="tel" id="phone" placeholder="Your phone number">
+                </div>
+                <div class="input">
+                    <label for="email">Name:</label>
+                    <input class="input-field" type="email" id="email" placeholder="Your e-mail">
+                </div>
+                <div class="max">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn-submit">
+            </fieldset>
+        </form>
+    </section>
+    <script src="https://kit.fontawesome.com/ebcaa185c4.js" crossorigin="anonymous"></script>
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
